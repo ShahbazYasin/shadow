@@ -1,51 +1,41 @@
-/* @media (min-width=1280px) and (max-width=480px){} */
+@media (min-width: 480px){
+
+}
+
+@media (min-width: 769px){
+
+}
+
+@media (min-width: 1280px){
+
+}
+
 body{
-    background-color: antiquewhite;
-    /* margin: 0% 10%; */
-    width: 100%;
+    background-color: bisque;
 }
-div {
-    display: inline-block;
-    background-color: #e9dddd;
-    
-}
-.position {
-    vertical-align: top;
-    /* margin: 20px 560px 0 0; */
-    
-}
-.position1 {
-width: 100%;
-}
-.position2{
-    width: 20%;
+div{
+    padding: 0px;
     margin: 0px;
 }
-
-.image-size1{
-    width: 700px;
-    height: 550px;
-
+.inline-block{
+    display: inline-block;
+    width: 49%;
+    
 }
-
-.image-size2{
-    width: 200px;
-    height: 250px;
-    /* padding: 40px 40px 0 40px; */
+.inline-block2{
+    display: inline-block;
+    width: 24.5%;
+    justify-content: center;
+}
+img{
+    width: 100%;
+}
+h1 {
+    color: navy;
 }
 p {
-    text-align: center;
-    /* background-color: #ebebeb; */
-    margin: 20px;
-}
-.text-align{
     text-align: justify;
-}
-.shadow{
-    -moz-box-shadow: 5px 5px 5px 5px #777777;
--webkit-box-shadow: 5px 5px 5px 5px #777777;
-box-shadow: 5px 5px 5px 5px #777777;
-background-color: aquamarine;
+    
 }
 button {
     border-radius: 25px;
@@ -59,17 +49,6 @@ button {
     color: white;
     
 }
-.text-box{
-    border-radius: 5px;
-    padding: 10px 0px;
-    width: 40px;
-    
-}
-h1 {
-    color: blue;
-    margin: 0;
-    padding: 0;
-}
 a:hover button{
     border-radius: 25px;
     padding: 15px 40px 15px 40px;
@@ -81,4 +60,10 @@ a:hover button{
     box-shadow: inset 10px 0 20px #777777;
     color: white;
   
+}
+.text-box{
+    border-radius: 5px;
+    padding: 10px 0px;
+    width: 40px;
+    
 }
